@@ -6,7 +6,6 @@ require("./Validation.php");
 if ($_SERVER["REQUEST_METHOD"] != "POST") return;
 
 unset($_SESSION["errors.register"]);
-// unset($_SESSION["exception"]);
 
 $vl = new Validation();
 $errors = [];

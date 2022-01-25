@@ -2,7 +2,10 @@
 require("./app/Index.php");
 ?>
 <?php include("./components/header.php") ?>
+<?php if(isset($_SESSION["user"])): ?>
 <a href="/pages/addBook.php" class="block simple-link">افزودن کتاب</a>
+<?php endif ?>
+
 <span>کتاب های موجود:</span>
 <div class="flex flex-wrap justify-center items-center m-5">
     <?php foreach($products as $product): ?>
