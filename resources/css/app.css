@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+    direction: rtl;
+    font-family: tahoma;
+}
+body{
+    @apply bg-gray-200;
+}
+
+.brand-title{
+    @apply  font-bold  text-4xl;
+}
+#navbar{
+    @apply shadow-md p-3 rounded;
+}
+
+#footer{
+    @apply bg-gray-800 text-white text-center shadow-md p-3 rounded;
+}
+.simple-link{
+    @apply text-blue-700;
+}
+
+.simple-input{
+    @apply p-2 rounded w-72;
+}
+.btn-submit{
+    @apply w-full bg-indigo-800 text-white p-3 active:translate-y-0.5 rounded ;
+}
+#logout{
+    @apply w-4 h-4 text-red-900;
+    top: -15px;
+    left: 5px;
+}

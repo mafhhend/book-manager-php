@@ -1,0 +1,18 @@
+{
+  "name": "book-manager-vue-php",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "start:css": "tailwindcss resources/css/app.css -o public/app.css --watch",
+    "build:css": "NODE_ENV=production tailwindcss resources/css/app.css -o public/app.cssresources/css/app.css -o public/app.css -m"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.16"
+  }
+}
