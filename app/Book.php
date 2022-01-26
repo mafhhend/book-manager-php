@@ -21,6 +21,7 @@ if ($exploded[count($exploded) - 1] !== "pdf") {
     header("Location: /pages/addBook.php");
     die;
 }
+
 $vl = new Validation();
 if ($vl->isEmpty($title)) array_push($errors, "لطفا عنوان کتاب را انتخاب نمایید.");
 
